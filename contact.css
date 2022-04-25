@@ -1,0 +1,122 @@
+.navbar {
+    position: static;
+    width: 100%;
+    background-color: rgb(83, 161, 60);
+    padding: 11px;
+    font-family: "Ubuntu", sans-serif;
+    transition: all 0.3s ease;
+    margin-top: -8px;
+    margin-left: -8px;
+    
+    
+}
+
+.menu {
+    margin: 20px;
+}
+.navbar .max-width .menu .current{
+  color: black;
+}
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .logo a:hover {
+    color: crimson
+}
+
+.navbar .logo a span:hover {
+    color: crimson
+}
+
+.navbar .logo a span {
+    color: white;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(24, 23, 23);
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover {
+    color: white;
+}
+
+
+/* .city {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+} */
+
+
+/* This is my contact styling */
+
+.container {
+    color: rgb(26, 25, 25);
+    width: 100%;
+    text-align: center;
+   align-items: center;
+    background-color: #dfdfdf;
+    height: 100vh;
+}
+
+form {
+    display: inline-block;
+}
+button{
+  background-color: green;
+}
+
+
+
+
+/* footer css */
+
+#footer {
+      font-size: 15px;
+    height: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    color: #423f3f;
+   font-family: 'Caveat';
+    text-align: center;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+}
+#footer .footer-links a:hover {
+  color: skyblue;
+}
+
+ /* logo color edit */
+ .green{
+   color: rgb(13, 14, 13)
+ }
+ .blue{
+   color: rgb(11, 11, 12)
+ }
+
+#footer a {
+    text-decoration: none;
+    color: #292525;
+    
+}

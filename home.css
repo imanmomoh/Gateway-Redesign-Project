@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    height:100vh;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  /* Hero Image css */
+  .hero-image{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./Images/cotton\ tree.jpeg');
+    background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+  }
+   .hero-text{
+    color: white;
+    text-align: center;
+  }
+  .hero-text h1{
+    font-size: 50px;
+    font-weight: 500;
+  }
+  .hero-text p{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 10px;
+  }
+  
+  
+  
+  /* Hover effect on footer */
+  .home max-width menu:hover a {
+    background-color: skyblue;
+  }
+  /* navbar styling */
+      .navbar {
+          
+          position: static;
+          width: 100%;
+          background-color: rgb(83, 161, 60);
+          padding: 11px;
+          font-family: "Ubuntu", sans-serif;
+          transition: all 0.3s ease;
+          margin-top: -8px;
+          margin-left: -8px;
+             
+              }
+      
+      .menu {
+          margin: 20px;
+      }
+      
+      
+      
+      .navbar .max-width {
+          display: flex;
+          align-items: center;
+          justify-content: space-between
+      }
+      
+      .navbar .logo a {
+          text-decoration: none;
+          
+          color: white;
+          font-size: 35px;
+          font-weight: 600;
+      }
+      /* Hover effect styling for Logo */
+      .navbar .logo a:hover {
+          color: crimson
+      }
+      /* hover effect styling for span */
+      .navbar .logo a span:hover {
+          color: crimson
+  
+      }
+      
+      .navbar .logo a span {
+          color: white;
+      }
+      
+      .navbar .menu li {
+          list-style: none;
+          display: inline-block;
+      }
+      
+      .navbar .menu li a {
+          text-decoration: none;
+          list-style: none;
+          color: rgb(24, 23, 23);
+          font-size: 22px;
+          font-weight: 500;
+          margin-left: 25px;
+          transition: color 0.3s ease;
+      }
+      /* hover effect on navbr */
+      .navbar .menu li a:hover {
+          color: white;
+      }
+  /* This makes it show what current page I'm on */
+  .navbar .max-width .menu .current{
+    color: black;
+    
+  }
+  /* description  */
+  .description{
+    text-align: center;
+    align-self: center;
+    font-size: 42px;
+      font-weight: 500;
+  }
+  
+  
+  /* footer css */
+  
+  #footer {
+        font-size: 15px;
+      height: 3rem;
+      margin-top: 2rem;
+      margin-bottom: 5rem;
+      color: #423f3f;
+      /* text-shadow: 0 1px rgb(255, 254, 254); */
+      font-family: 'Caveat';
+      
+      text-align: center;
+      letter-spacing: .2rem;
+      text-transform: uppercase;
+  }
+  /* hover effect for footer */
+   #footer .footer-links a:hover {
+    color: skyblue;
+  }
+  /* logo color edit */
+   .green{
+     color: rgb(13, 14, 13)
+   }
+   .blue{
+     color: rgb(11, 11, 12)
+   }
+  
+  #footer a {
+      text-decoration: none;
+      color: #292525;
+      
+  }
